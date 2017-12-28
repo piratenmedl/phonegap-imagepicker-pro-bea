@@ -96,7 +96,7 @@ static NSString * const CollectionCellReuseIdentifier = @"CollectionCell";
     
     //Title
     if (!self.picker.title)
-        self.title = NSLocalizedStringFromTable(@"所有图片", @"GMImagePicker",@"Navigation bar default title");
+        self.title = NSLocalizedStringFromTable(@"Fotos auswählen", @"GMImagePicker",@"Navigation bar default title");
     else
         self.title = self.picker.title;
     
