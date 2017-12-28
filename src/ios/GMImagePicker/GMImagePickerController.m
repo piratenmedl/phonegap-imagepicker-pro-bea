@@ -36,16 +36,13 @@
         _minimumInteritemSpacing = 2.0;
         
         //Sample of how to select the collections you want to display:
-        /*_customSmartCollections = @[@(PHAssetCollectionSubtypeSmartAlbumFavorites),
+        _customSmartCollections = @[@(PHAssetCollectionSubtypeSmartAlbumFavorites),
                                     @(PHAssetCollectionSubtypeSmartAlbumRecentlyAdded),
                                     @(PHAssetCollectionSubtypeSmartAlbumVideos),
                                     @(PHAssetCollectionSubtypeSmartAlbumSlomoVideos),
                                     @(PHAssetCollectionSubtypeSmartAlbumTimelapses),
                                     @(PHAssetCollectionSubtypeSmartAlbumBursts),
-                                    @(PHAssetCollectionSubtypeSmartAlbumPanoramas)];*/
-        _customSmartCollections = @[@(PHAssetCollectionSubtypeSmartAlbumFavorites),
-                                    @(PHAssetCollectionSubtypeSmartAlbumTimelapses),
-                                    @(PHAssetCollectionSubtypeSmartAlbumBursts)];
+                                    @(PHAssetCollectionSubtypeSmartAlbumPanoramas)];
         //If you don't want to show smart collections, just put _customSmartCollections to nil;
         //_customSmartCollections=nil;
         
