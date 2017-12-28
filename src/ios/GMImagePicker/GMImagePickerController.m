@@ -206,14 +206,14 @@
     _previewbtn.frame =CGRectMake(0, self.view.frame.size.height-45, 100, 45);
 
     
-    [_previewbtn setTitle:@"预览" forState:(UIControlStateNormal)];
+    [_previewbtn setTitle:@"" forState:(UIControlStateNormal)]; //预览
     [_previewbtn setTitleColor:[UIColor colorWithRed:63.0/255.0 green:159.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)];
-     _previewbtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
+    _previewbtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     _previewbtn.titleLabel.adjustsFontSizeToFitWidth = YES;
     [_previewbtn.titleLabel setTextAlignment:(NSTextAlignmentLeft)];
    
     [_previewbtn addTarget:self action:@selector(previewEvent:) forControlEvents:(UIControlEventTouchUpInside)];
-        [_previewbtn setHidden:(self.selectedAssets.count == 0)];
+        [_previewbtn setHidden:(self.selectedAssets.count >= 0)]; //bea
     NSLog(@"(self.selectedAssets.count == 0):%lu",(unsigned long)self.selectedAssets.count);
     
     [nav.view addSubview:_previewbtn];
