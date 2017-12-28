@@ -356,14 +356,14 @@
     
     if (nImages>0 && nVideos>0)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"Objekte ausgewählt", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)]; //bea
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"%@ Objekte ausgewählt", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)]; //bea
     }
     else if (nImages>1)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"Fotos ausgewählt", @"GMImagePicker", @"%@ Photos Selected"), @(nImages)]; //bea
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"%@ Fotos ausgewählt", @"GMImagePicker", @"%@ Photos Selected"), @(nImages)]; //bea
     }
     else if (nImages==1)
-    {
+    { 
         return NSLocalizedStringFromTable(@"1 Foto ausgewählt", @"GMImagePicker", @"1 Photo Selected" ); //bea
     }
     else if (nVideos>1)
