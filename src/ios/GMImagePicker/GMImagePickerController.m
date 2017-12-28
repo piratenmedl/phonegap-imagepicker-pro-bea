@@ -220,7 +220,7 @@
     
     
     _tocoMpletebtn.frame =CGRectMake(self.view.frame.size.width - 60, self.view.frame.size.height-45, 60, 45);
-    [_tocoMpletebtn setTitle:@"完成" forState:(UIControlStateNormal)];
+    [_tocoMpletebtn setTitle:@"Fertig" forState:(UIControlStateNormal)];
     [_tocoMpletebtn setTitleColor:[UIColor colorWithRed:63.0/255.0 green:159.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)];
     _tocoMpletebtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     _tocoMpletebtn.titleLabel.adjustsFontSizeToFitWidth = YES;
@@ -280,7 +280,7 @@
     
     
     _preVC.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"取消", @"GMImagePicker",@"Done")
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Fertig", @"GMImagePicker",@"Done")
                                      style:UIBarButtonItemStyleDone
                                     target:self
                                     action:@selector(dismiss:)];
@@ -356,23 +356,23 @@
     
     if (nImages>0 && nVideos>0)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"选取多张图片", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)];
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"选取多张图片", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)]; //bea
     }
     else if (nImages>1)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"选取多张图片", @"GMImagePicker", @"%@ Photos Selected"), @(nImages)];
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"Fotos ausgewählt", @"GMImagePicker", @"%@ Photos Selected"), @(nImages)]; //bea
     }
     else if (nImages==1)
     {
-        return NSLocalizedStringFromTable(@"选取单张图片", @"GMImagePicker", @"1 Photo Selected" );
+        return NSLocalizedStringFromTable(@"1 Foto ausgewählt", @"GMImagePicker", @"1 Photo Selected" ); //bea
     }
     else if (nVideos>1)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"picker.selection.multiple-videos", @"GMImagePicker", @"%@ Videos Selected"), @(nVideos)];
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"picker.selection.multiple-videos", @"GMImagePicker", @"%@ Videos Selected"), @(nVideos)]; //bea
     }
     else if (nVideos==1)
     {
-        return NSLocalizedStringFromTable(@"picker.selection.single-video", @"GMImagePicker", @"1 Video Selected");
+        return NSLocalizedStringFromTable(@"picker.selection.single-video", @"GMImagePicker", @"1 Video Selected"); //bea
     }
     else
     {
