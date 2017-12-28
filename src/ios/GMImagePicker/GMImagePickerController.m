@@ -209,7 +209,7 @@
     _previewbtn.frame =CGRectMake(0, self.view.frame.size.height-45, 100, 45);
 
     
-    [_previewbtn setTitle:@"" forState:(UIControlStateNormal)]; //预览
+    [_previewbtn setTitle:@"" forState:(UIControlStateNormal)]; //预览 bea zeigeDetail 
     [_previewbtn setTitleColor:[UIColor colorWithRed:63.0/255.0 green:159.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)];
     _previewbtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     _previewbtn.titleLabel.adjustsFontSizeToFitWidth = YES;
@@ -292,7 +292,7 @@
                                     action:@selector(dismiss:)];
     
    
-    _preVC.navigationItem.rightBarButtonItem.enabled = YES;
+    _preVC.navigationItem.rightBarButtonItem.enabled = NO; //YES bea
   
     
     [_preVC.view addSubview:previewScroll];
