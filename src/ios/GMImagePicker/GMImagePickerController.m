@@ -220,7 +220,7 @@
     
     
     _tocoMpletebtn.frame =CGRectMake(self.view.frame.size.width - 60, self.view.frame.size.height-45, 60, 45);
-    [_tocoMpletebtn setTitle:@"Fertig" forState:(UIControlStateNormal)];
+    [_tocoMpletebtn setTitle:@"Abbrechen" forState:(UIControlStateNormal)];
     [_tocoMpletebtn setTitleColor:[UIColor colorWithRed:63.0/255.0 green:159.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)];
     _tocoMpletebtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     _tocoMpletebtn.titleLabel.adjustsFontSizeToFitWidth = YES;
