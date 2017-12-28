@@ -76,7 +76,7 @@ static NSString * const CollectionCellReuseIdentifier = @"CollectionCell";
     //if (self.picker.showsCancelButton)
     {
         self.navigationItem.leftBarButtonItem =
-        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"取消", @"GMImagePicker",@"Cancel")
+        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Abbrechen", @"GMImagePicker",@"Cancel")
                                          style:UIBarButtonItemStylePlain
                                         target:self.picker
                                         action:@selector(dismiss:)];
@@ -164,7 +164,7 @@ static NSString * const CollectionCellReuseIdentifier = @"CollectionCell";
         
         PHFetchResult *assetsFetchResult = [PHAsset fetchAssetsWithOptions:options];
         [allFetchResultArray addObject:assetsFetchResult];
-        [allFetchResultLabel addObject:NSLocalizedStringFromTable(@"所有照片", @"GMImagePicker",@"All photos")];
+        [allFetchResultLabel addObject:NSLocalizedStringFromTable(@"Alle Fotos", @"GMImagePicker",@"All photos")];
     }
     
     //User albums:
