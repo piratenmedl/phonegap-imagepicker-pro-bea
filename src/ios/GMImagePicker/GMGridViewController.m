@@ -477,9 +477,9 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 //    NSLog(@"self.selectedAssets.count:%ld",(unsigned long)_picker.selectedAssets.count);
     if(_picker.selectedAssets.count >=_picker.maximumImagesCount)
     {
-        NSString *alertStr = [NSString stringWithFormat:@"你最多只能选择%ld张照片",(long)_picker.maximumImagesCount];
+        NSString *alertStr = [NSString stringWithFormat:@"Du hast jetzt alle Fotos ausgewählt",(long)_picker.maximumImagesCount]; //bea
 
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:alertStr message:@"" delegate:self cancelButtonTitle:@"我知道了" otherButtonTitles:nil, nil];
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:alertStr message:@"" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil]; //bea
         [alertView show];
         
         
