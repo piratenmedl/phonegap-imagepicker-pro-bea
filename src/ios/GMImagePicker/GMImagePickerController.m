@@ -220,10 +220,11 @@
     
     
     _tocoMpletebtn.frame =CGRectMake(self.view.frame.size.width - 60, self.view.frame.size.height-45, 60, 45);
-    [_tocoMpletebtn setTitle:@"OK" forState:(UIControlStateNormal)];
+    [_tocoMpletebtn setTitle:@"Ok" forState:(UIControlStateNormal)];
     //[_tocoMpletebtn setTitleColor:[UIColor colorWithRed:63.0/255.0 green:159.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)];
-    [_tocoMpletebtn setTitleColor:[UIColor colorWithRed:0.0/255.0 green:230.0/255.0 blue:1.0 alpha:1.0] forState:(UIControlStateNormal)]; //bea
-    _tocoMpletebtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
+    [_tocoMpletebtn setTitleColor:[UIColor colorWithRed:255.0/255.0 green:0.0/255.0 blue:0.0/255.0 alpha:1.0] forState:(UIControlStateNormal)]; //bea rot
+    //_tocoMpletebtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
+    _tocoMpletebtn.titleLabel.font = [UIFont boldSystemFontOfSize:18]; //bea
     _tocoMpletebtn.titleLabel.adjustsFontSizeToFitWidth = NO; //bea
     //_tocoMpletebtn.titleLabel.adjustsFontSizeToFitWidth = YES;
     [_tocoMpletebtn.titleLabel setTextAlignment:(NSTextAlignmentLeft)];
