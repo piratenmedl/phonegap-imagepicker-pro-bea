@@ -356,7 +356,7 @@
     
     if (nImages>0 && nVideos>0)
     {
-        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"选取多张图片", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)]; //bea
+        return [NSString stringWithFormat:NSLocalizedStringFromTable(@"Objekte ausgewählt", @"GMImagePicker", @"%@ Items Selected" ), @(nImages+nVideos)]; //bea
     }
     else if (nImages>1)
     {
