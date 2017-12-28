@@ -121,7 +121,7 @@ static UIColor *disabledColor;
         
         _selectedButton = [UIButton buttonWithType:UIButtonTypeCustom];
        // _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/4, self.bounds.size.width/4);
-        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/3.75, self.bounds.size.width/3.75); //bea Gröpe Bubble
+        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/3.75, self.bounds.size.width/3.75); //bea Bubble
         
         _selectedButton.contentMode = UIViewContentModeTopRight;
         _selectedButton.adjustsImageWhenHighlighted = NO;
