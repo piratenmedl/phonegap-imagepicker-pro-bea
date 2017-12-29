@@ -518,7 +518,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
             
             
             if ( cell ) {
-                [ cell set_progress:progress animated:false];
+                [ cell set_progress:progress animated:true]; //bea set_progress
             }
             
         }];
