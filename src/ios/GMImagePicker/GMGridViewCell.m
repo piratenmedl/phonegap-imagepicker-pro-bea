@@ -141,10 +141,10 @@ static UIColor *disabledColor;
         
         // circle progress
         
-//        self.circularProgressView = [[MRCircularProgressView alloc] initWithFrame:CGRectMake(self.bounds.size.width/3, self.bounds.size.height/3, self.bounds.size.width/3, self.bounds.size.height/3)];
-//        [self.circularProgressView.stopButton addTarget:self action:@selector(onCircularProgressViewTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
-//        [self.circularProgressView setHidden:true];
-//        [self addSubview:self.circularProgressView];
+        self.circularProgressView = [[MRCircularProgressView alloc] initWithFrame:CGRectMake(self.bounds.size.width/3, self.bounds.size.height/3, self.bounds.size.width/3, self.bounds.size.height/3)];
+        [self.circularProgressView.stopButton addTarget:self action:@selector(onCircularProgressViewTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
+        [self.circularProgressView setHidden:true];
+        [self addSubview:self.circularProgressView];
         
         
         _fetch = [UILabel new];
