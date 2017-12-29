@@ -260,7 +260,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
                                     target:self.picker
                                     action:@selector(dismiss:)];
     
-    self.navigationItem.rightBarButtonItem.enabled = (self.picker.selectedAssets.count < -1); //bea > 0
+    //self.navigationItem.rightBarButtonItem.enabled = (self.picker.selectedAssets.count < -1); //bea > 0
     //self.navigationItem.rightBarButtonItem.enabled = YES; 
 }
 
