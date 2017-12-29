@@ -255,13 +255,13 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 - (void)setupButtons
 {
     self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"AbbrechenX", @"GMImagePicker",@"Done")
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"", @"GMImagePicker",@"Done") //AbbrechenX
                                      style:UIBarButtonItemStyleDone
                                     target:self.picker
                                     action:@selector(dismiss:)];
     
     //self.navigationItem.rightBarButtonItem.enabled = (self.picker.selectedAssets.count < -1); //bea > 0
-    //self.navigationItem.rightBarButtonItem.enabled = YES; 
+    self.navigationItem.rightBarButtonItem.enabled = NO; 
 }
 
 - (void)setupToolbar
@@ -518,7 +518,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
             
             
             if ( cell ) {
-                [ cell set_progress:progress animated:true]; //bea set_progress
+                [ cell set_progress:progress animated:false]; //bea set_progress
             }
             
         }];
