@@ -72,7 +72,7 @@ static NSString * const CollectionCellReuseIdentifier = @"CollectionCell";
     self.tableView.rowHeight = kAlbumRowHeight;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
-    //Navigation bar items
+    //Navigation bar items - Album
     //if (self.picker.showsCancelButton)
     {
         self.navigationItem.leftBarButtonItem =
