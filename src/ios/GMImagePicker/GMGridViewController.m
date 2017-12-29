@@ -255,7 +255,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 - (void)setupButtons
 {
     self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Abbrechen", @"GMImagePicker",@"Done")
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"AbbrechenX", @"GMImagePicker",@"Done")
                                      style:UIBarButtonItemStyleDone
                                     target:self.picker
                                     action:@selector(dismiss:)];
