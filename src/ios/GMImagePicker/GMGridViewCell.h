@@ -28,7 +28,7 @@
 
 - (void)bind:(PHAsset *)asset;
 
-//@property (nonatomic, strong) MRCircularProgressView *circularProgressView;
+@property (nonatomic, strong) MRCircularProgressView *circularProgressView;
 -(void)show_progress;
 -(void)set_progress:(float)value animated:(BOOL)animated;
 -(void)hide_progress;
