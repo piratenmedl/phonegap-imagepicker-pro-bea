@@ -254,14 +254,14 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 
 - (void)setupButtons
 {
-    self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"", @"GMImagePicker",@"Done") //AbbrechenX
-                                     style:UIBarButtonItemStyleDone
-                                    target:self.picker
-                                    action:@selector(dismiss:)];
+    //self.navigationItem.rightBarButtonItem =
+    //[[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"", @"GMImagePicker",@"Done") //AbbrechenX
+     //                                style:UIBarButtonItemStyleDone
+     //                               target:self.picker
+     //                               action:@selector(dismiss:)];
     
     //self.navigationItem.rightBarButtonItem.enabled = (self.picker.selectedAssets.count < -1); //bea > 0
-    self.navigationItem.rightBarButtonItem.enabled = NO; 
+    //self.navigationItem.rightBarButtonItem.enabled = NO; 
 }
 
 - (void)setupToolbar
