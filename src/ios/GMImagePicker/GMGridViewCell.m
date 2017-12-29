@@ -115,13 +115,13 @@ static UIColor *disabledColor;
         _coverView = [[UIView alloc] initWithFrame:self.bounds];
         _coverView.translatesAutoresizingMaskIntoConstraints = NO;
         _coverView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-        _coverView.backgroundColor = [UIColor colorWithRed:0.24 green:0.47 blue:0.85 alpha:0.2];
+        _coverView.backgroundColor = [UIColor colorWithRed:0.24 green:0.47 blue:0.85 alpha:0.2]; //Transparenzmaske bei Select
         [self addSubview:_coverView];
         _coverView.hidden = NO; //bea
         
         _selectedButton = [UIButton buttonWithType:UIButtonTypeCustom];
        // _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/4, self.bounds.size.width/4);
-        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/3.75, self.bounds.size.width/3.75); //bea Gröpe Bubble
+        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/3, self.bounds.size.width/3); //bea Bubble
         
         _selectedButton.contentMode = UIViewContentModeTopRight;
         _selectedButton.adjustsImageWhenHighlighted = NO;
