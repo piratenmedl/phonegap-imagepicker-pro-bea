@@ -286,7 +286,7 @@
     
     
     _preVC.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Abbrechen", @"GMImagePicker",@"Done")
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"AbbrechenY", @"GMImagePicker",@"Done")
                                      style:UIBarButtonItemStyleDone
                                     target:self
                                     action:@selector(dismiss:)];
