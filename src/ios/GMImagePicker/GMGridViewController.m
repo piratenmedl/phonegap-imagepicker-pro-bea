@@ -544,7 +544,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
                 [cell show_fetching];
             }
             
-            fetch_item.be_progressed = true; //bea progress false
+            fetch_item.be_progressed = false; //bea progress false
             fetch_item.be_finished = true;
             
             //asset.image_fullsize = result;

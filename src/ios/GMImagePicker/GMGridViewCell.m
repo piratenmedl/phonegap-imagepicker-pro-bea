@@ -121,7 +121,7 @@ static UIColor *disabledColor;
         
         _selectedButton = [UIButton buttonWithType:UIButtonTypeCustom];
        // _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4, 0*self.bounds.size.width/3, self.bounds.size.width/4, self.bounds.size.width/4);
-        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/5, 0*self.bounds.size.width/5, self.bounds.size.width/3, self.bounds.size.width/3); //bea Bubble
+        _selectedButton.frame = CGRectMake(3*self.bounds.size.width/4.5, 0*self.bounds.size.width/5, self.bounds.size.width/3, self.bounds.size.width/3); //bea Bubble
         
         _selectedButton.contentMode = UIViewContentModeTopRight;
         _selectedButton.adjustsImageWhenHighlighted = NO;
@@ -130,7 +130,7 @@ static UIColor *disabledColor;
         _selectedButton.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
 //        [_selectedButton setImage:[UIImage imageNamed:@"GMSelected"] forState:UIControlStateSelected];
 //        _selectedButton.alpha = 0.5;
-        _selectedButton.layer.cornerRadius = self.bounds.size.width/10;
+        _selectedButton.layer.cornerRadius = self.bounds.size.width/7;
         _selectedButton.backgroundColor = [UIColor colorWithRed:255/255.0 green:0/255.0 blue:0/255.0 alpha:1.0]; //Zähler Bubble bea
         //_selectedButton.backgroundColor = [UIColor colorWithRed:0/255.0 green:181/255.0 blue:29/255.0 alpha:1.0];
         [_selectedButton setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
