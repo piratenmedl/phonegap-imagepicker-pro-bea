@@ -2,7 +2,7 @@
 <plugin id="cordova-plugin-imagepicker-pro" version="1.0.2"
     xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>cordova-plugin-imagepicker-pro</name>
+    <name>cordova-plugin-imagepicker-pro-bea</name>
     <js-module name="imagePicker"
         src="www/imagepicker.js">
         <clobbers target="cordova.plugins.imagePicker" />
